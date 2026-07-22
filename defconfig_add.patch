@@ -1,0 +1,10 @@
+--- a/arch/arm64/configs/vendor/mondrian_defconfig
++++ b/arch/arm64/configs/vendor/mondrian_defconfig
+@@ -0,0 +1,7 @@
+ CONFIG_KERNELSU_NEXT=y
+ CONFIG_KSU_SUSFS=y
+ CONFIG_KSU_SUSFS_AUTO_MOUNT=y
+ CONFIG_TRACEPOINT_HOOK=y
+ CONFIG_KSU_ALLOW_STRICT_SELINUX=y
+ CONFIG_SCHED_MINOTAUR=y
+ CONFIG_SCHED_AUTO_GPU_BOOST=y
